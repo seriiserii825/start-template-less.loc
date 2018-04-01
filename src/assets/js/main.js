@@ -17,12 +17,6 @@ $(function () {
         fixedBackground: false
       });
 
-      function(something in themes){
-        'something';
-        'another string for me';
-        this.letter = string;
-      }
-
     });
 
 
