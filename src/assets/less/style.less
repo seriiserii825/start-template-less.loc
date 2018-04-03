@@ -1,12 +1,14 @@
-@import "partials/_start.less";
+@import (less) "../libs/bootstrap/css/bootstrap.min.css";
+@import "partials/variables.less";
+@import "partials/mixins.less";
+@import "partials/fonts.less";
 
 body {
   font-size: 18px;
   text-align: center;
-  color: maroon;
-  background: #888;
+  .latoRegular;
+  font-size: 20px;
+  color: @text-color;
+  background: @white;
 }
 
-.block {
-  border: 1px solid red; 
-}
